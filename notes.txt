@@ -1,0 +1,211 @@
+Class - 1
+==========
+
+    -> Python Course
+
+        -> Full Stack Development 
+
+            -> HTML / CSS / JS / SQL / Django(Python Web Apps)  
+
+            -> Build Web Applications 
+
+        
+        -> Data Analytics / Data Science / Data Engineering / AI 
+
+            -> Numpy / Pandas / PyTorch etc 
+
+            -> Build Visualizations(Dashboards), Models(GPT's), Data Pipelines, Agents etc 
+
+
+        -> Cloud Computing / DevOps / Testing 
+
+            -> OS Module / Sys Module / Boto3 etc 
+
+            -> Build Automation Scripts 
+
+
+    -> Course Name: Core Python, which is common for all the above courses 
+
+        -> Python Language Fundamentals 
+
+    
+    -> Python 
+
+        -> https://en.wikipedia.org/wiki/Python_(programming_language)
+
+        -> Python is a high-level, general-purpose programming language 
+        that emphasizes code readability, simplicity, and ease-of-writing 
+        with the use of significant indentation, an extensive ("batteries-included") 
+        standard library, and garbage collection.Python supports 
+        multiple programming paradigms but with an emphasis on 
+        object-oriented programming and dynamic typing.
+
+
+
+        -> Python is a High Level programming language 
+
+            -> High Level programming language
+
+                -> High Level language means "Human Understandable" Language (English)
+
+                -> Python Code Looks Like English 
+
+                    num1 = 1.5
+                    num2 = 3.5 
+                    sum = num1 + num2 
+
+
+            -> Low Level programming language
+
+                -> Low Level language means "Machine Understandable" Language 
+                (Binary Bits i.e 101010101)
+
+                -> 01110000 01111001 01110100 01101000 01101111 01101110 -> python
+
+
+
+        -> Python is a General Purpose programming language 
+
+            
+            -> General Purpose programming language 
+
+                -> If we can build "Multiple Types" Of Applications 
+
+                    -> Desktop Applications ?? -> Yes 
+
+                    -> Web Applications ?? -> Yes 
+
+                    -> API's ?? -> Yes 
+
+                    -> Automation Scripts ?? -> Yes 
+
+
+            -> Domain Specific programming language 
+
+                -> If we can build "Only Specific Type" Of Applications 
+
+                -> SQL - Structured Query Language is a domain-specific language 
+                used to manage data, especially in a relational database management system.
+
+                    -> Desktop Applications ?? -> No  
+
+                    -> Web Applications ?? -> No 
+
+                    -> API's ?? -> No 
+
+                    -> Automation Scripts ?? -> No 
+
+
+
+        -> Python emphasizes code readability, simplicity, and ease-of-writing 
+        with the use of significant indentation.
+
+            -> code readability, simplicity, and ease-of-writing
+
+                Java Code
+                ---------
+
+                    class Main {
+
+                        public static void main(String[] args) {   
+                            int first = 10;
+                            int second = 20;
+                            // add two numbers
+                            int sum = first + second;
+                            System.out.println(first + " + " + second + " = "  + sum);
+                        }
+                    }
+
+                    class
+                    Main
+                    public
+                    static
+                    void
+                    ; 
+                    etc 
+
+                
+                Python Code
+                -----------
+
+                    num1 = 1.5
+                    num2 = 3.5 
+                    sum = num1 + num2 
+                    print(sum)
+
+                -> NOTE: Python code looks like "Plain English"
+
+
+            -> Indentation 
+
+                -> https://media.geeksforgeeks.org/wp-content/uploads/20210527185820/s122.jpg
+
+                -> https://i.ytimg.com/vi/YaYPsRg8Jow/maxresdefault.jpg
+
+                -> Indentation refers to Code Structuring 
+
+                -> Python uses "Spaces" for indentation unlike  other languages 
+                which use { } 
+
+                -> Python language was designed by "Guido van Rossum"
+
+                -> "Guido van Rossum" was inspired by "ABC Language"
+
+                -> Wiki: Guido van Rossum began working on Python in the late 1980s 
+                as a successor to the ABC programming language.
+
+                    -> ABC Language focuses on readability, teaching, and prototyping
+
+                        -> https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTele9NP843yKTjtsSbAFoDgEUvS28n14OcgBXzPl4v0pBF49910b1s5B8XZS1kssqRQsrIC8KZMRWATvOoxR2PY7hvCCxQnJH6LkT0lw&s=10
+
+                    -> Python Indentation Example 
+
+                        def add_student():
+                        # Create / Add Student 
+                        print("=" * 30)
+                        print("     Adding Student")
+                        print("=" * 30)
+                        
+                        student_id = input("Enter ID: ")
+                        if student_id in students:
+                            print("OOPS! Student ID Already Exists")
+                        else:
+                            name = input("Enter Name: ").title()
+                            scores = []
+                            while True:
+                                score_input = input("Enter Score or Type done: ")
+                                if score_input == "done":
+                                    break 
+                                if score_input.isdigit():
+                                    score_input = int(score_input)
+                                    if 0 <= score_input <= 100:
+                                        scores.append(score_input)
+                                    else:
+                                        print("Invalid Score, Score should be (0-100)")
+                                else:
+                                    print("Invalid Score, Only Digits Allowed")
+
+                
+                -> NOTE: Understanding Indentation means 
+
+                    -> When to use Space 
+                    -> When Not to use Space 
+                    -> How many spaces to use when 
+
+
+
+            -> Python has an extensive ("batteries-included") standard library
+
+                -> Python's "batteries-included" philosophy means it comes 
+                pre-packaged with over 200 built-in modules.
+
+                -> This vast collection allows developers to handle common programming tasks
+
+                -> NOTE: You don't need to reinvent things from scratch again 
+
+                -> NOTE: You don't need to build again, already python gave 
+                common things, just use 
+
+                    -> Mathematical functions - https://docs.python.org/3/library/math.html
+
+                    

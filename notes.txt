@@ -209,3 +209,181 @@ Class - 1
                     -> Mathematical functions - https://docs.python.org/3/library/math.html
 
                     
+
+Class - 2
+==========
+
+    -> Garbage Collection
+
+        -> Garbage Collection means Automatically Remove "Unused" Data 
+
+            -> Python Automatically Cleans Up "Unused" Data From Memory / RAM 
+
+                product = "iphone"
+                price = 120000
+                rating = 4.7
+
+                print(product)
+                print(price)
+
+                -> NOTE: Python Cleans Up rating Memory, as it's never used in the program 
+
+
+    -> Programming Paradigms
+
+        -> A programming paradigm is a relatively high-level way to conceptualize 
+        and structure the implementation of a computer program.
+
+        -> Problem: How To Reach Institute ?
+
+            -> Solution 1: I'll Come By Walk 
+
+            -> Solution 2: I'll Come By Bike 
+
+            -> Solution 3: I'll Come By Bus 
+
+        -> https://en.wikipedia.org/wiki/Programming_paradigm
+        
+        -> We Have Two Popular Types 
+
+            -> Imperative Approach 
+
+                -> Focus is on "HOW TO DO"
+
+                -> Object Oriented Approach (OOPS)
+
+            
+            -> Declarative Approach
+
+                -> Focus is on "WHAT TO DO"
+
+                -> Functional Oriented Approach (Functional Programming)
+
+
+            -> NOTE: Python supports multiple programming paradigms i.e 
+            We can use Both Imperative & Declarative Approach. 
+
+                -> https://miro.medium.com/v2/resize:fit:1200/1*Jf5GJS1XtRsHWbZldcvOiQ.png      
+            
+            
+            
+    -> Python Supports dynamic typing
+
+        -> Dynamic Type Checked Language
+
+            -> We have a concept called "Data Types"
+
+                -> Data Types: Categorization Of Data 
+
+                    -> Text, Whole Numbers, Decimal Numbers etc 
+
+            -> NOTE: Dynamic Type Checked Language means 
+            We don't need to explicitly specify data type 
+
+                -> product = "iphone"
+                -> price = 120000 
+                -> rating = 4.6
+                -> etc 
+
+        
+        
+        -> Static Type Checked Language (Java)
+
+            -> NOTE: Static Type Checked Language means 
+            We need to explicitly specify data type.
+
+                -> String product = "iphone"
+                -> int rice = 120000 
+                -> float rating = 4.6
+                -> etc 
+
+
+    -> Python is Interpreted Language
+
+        -> Interpreted Language 
+
+            -> An Interpreted Language executes code Line By Line 
+
+
+        -> Compiled Language (Java)
+
+            -> A Compiled Language executes all the code at once 
+
+        
+        -> NOTE: Compiled Language is FASTER than Interpreted Language
+
+            -> Banking, Finance, Military, Government based projects 
+
+
+    -> Why Python or Key Features Of Python ?
+
+        -> Simple & Easy (Readability) 
+
+            -> Faster Implementations
+
+        -> High Level Language 
+
+        -> Dynamic Type Checked 
+
+        -> Batteries Included (200 plus inbuilt modules)
+
+        -> Multiple Programming Paradigms Support 
+
+        -> Open Source (FREE)
+
+        -> Garbage Collected i.e Memory Safe Language 
+
+        -> Vast Open Source Community (Best Support)
+
+        -> Best Prototype Language(poc's)
+
+        -> Extensible Language (REST API's)
+
+        -> Interpreted Language
+
+        -> Versatility (*) / General Purpose Language 
+
+            -> Data Oriented / Web Applications / API's / AI / Automation etc 
+
+    
+        -> NOTE: List Of Popular Applications Where Python is used 
+
+            ->  https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites  
+
+
+
+    -> System Requirements For This Course (To Do Labs)
+
+        -> i3 / i5 processor 
+
+        -> 4 GB RAM / 8 GB RAM 
+
+        -> 200 GB HDD / 500 GB HDD (Hard Disk)
+
+
+    -> Softwares To Be Installed 
+
+        -> Install Python Interpreter (Python Runtime)
+
+            -> Python Interpreter makes your computer/laptop 
+            understand and execute python instructions(code)
+
+            -> Install Windows / Linux / MacOS 
+
+        
+        -> Install IDE (Integrated Development Environment)
+
+            -> Tools for writing Code 
+            (Syntax Highlighting, Auto Code Completion, Install Plugins etc)
+
+            -> Any IDE You can use 
+
+            -> I'll be using Visual Studio Code (VS Code)
+
+            
+
+
+        
+
+
+        

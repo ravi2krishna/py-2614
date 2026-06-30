@@ -498,3 +498,104 @@ Class - 3
         -> Any function has some name i.e function_name() 
 
             -> NOTE: We have print() - prints on standard output i.e screen 
+
+
+Class - 4
+==========
+
+    -> More Rules 
+
+        -> When Working with Numeric Values (1,10,1.5,-10)  we can directly use print()
+
+        -> When Working With Text Values, we call them as Strings 
+
+            -> Rule / Syntax: String should be enclosed in '' or "" 
+
+
+    -> Identifiers 
+
+        -> An Identifier is a "name" used to uniquely identify piece of data in code 
+
+            -> Variable 
+            -> Function 
+            -> Class  
+            -> Object
+            -> Method
+            -> etc 
+
+        -> Identifier Rules 
+
+            -> Can Contain 
+
+                -> Alphabets (a-z A-Z)
+                -> Digits (0-9)
+                -> Special Symbols (Only _ (underscore) is allowed)
+
+            
+            -> Must Start With 
+
+                -> An Alphabet or _ (underscore)
+
+                -> NOTE: Replace space with underscore for long words 
+
+        -> NOTE: Always use proper way of naming the identifiers  
+
+        -> NOTE: Always use UPPER CASE for Static Data (Fixed / Doesn't Change)
+
+
+
+    -> Variables 
+
+        -> Variable is a named storage location in Computers Memory (RAM)
+        that holds some Value or Data.
+
+        -> Syntax 
+
+            -> variable_name = value 
+
+                -> variable_name should follow identifier rules 
+                -> = Assignment Operator 
+                -> value is data that you want to store 
+
+                -> data = 10 (valid)
+                -> data = ten (invalid)
+                -> data = "ten" (valid)
+
+        -> Variables Allow You To 
+
+            -> Assign Data (Store Data)
+
+            -> Retrieve Data (Get Data)
+
+            -> Manipulate Data (Change Data)
+
+    
+    -> Combine Variables With Custom Statements 
+
+        -> Concatenation: Combining / Joining Strings Using + Operator  
+
+        -> NOTE: When Combining Strings With Other Data Types 
+        like int, float, boolean etc we use , Operator 
+        
+        -> NOTE: To know the Data Type Of Variable 
+
+            -> We use type() function 
+        
+        -> NOTE: To know the Memory Address Of Variable 
+
+            -> We use id() function 
+
+        
+        -> NOTE: Memory Model In Python 
+
+            -> If a value is already present in the Memory,
+            python will not create a New Memory Block again 
+
+            -> Python Efficiently Uses Memory 
+
+
+        -> NOTE: To Manipulate Data, we need "Operators"
+
+
+
+            

@@ -597,5 +597,112 @@ Class - 4
         -> NOTE: To Manipulate Data, we need "Operators"
 
 
+Class - 5
+==========
 
+    -> Operators 
+
+        -> Operators are special "Symbols" and "keywords", 
+        which performs operations on Variables and their Values. 
+
+        -> There are different types of operators, to deal with different types of data 
+
+        -> Arithmetic Operators 
+
+            -> To Perform Mathematical Calculation 
+
+                -> + - * / % 
+
+                -> // - floor division (Same as division, but rounds off result)
+
+                -> ** - Exponentiation (Same as Calculating Powers)
+
+        -> Compound Assignment Operators 
+
+            -> Assignment Operator (=) is used to Assign Value To Variable 
+
+            -> Compound Assignment Operators, Combine Arithmetic Operators 
+            with Assignment Operator, used for Short Hand Code (Concise Code)
+
+                -> x = 10 
+                -> x = x * 5 (Long Form)
+
+                -> x = 10 
+                -> x *= 5   (Short Form)  
+
+                -> NOTE: x = x * 5 and x *= 5 (Does Same Operations)
+
+            -> NOTE: In Some Programming Languages we have Increment & Decrement Operators 
+
+                -> ++ Increment (Increases the value)
+
+                -> -- Decrement (Decreases the value)
+
+                -> NOTE: Python Doesn't Support Increment and Decrement Operators
+
+
+        -> Comparison Operators 
+
+            -> Comparison Operators are used for Comparing Values 
+            and result is in boolean type (True/False) 
+
+            -> Used in Conditional Statements (if)
+
+            -> ==, !=, <, >, <=, >=   
+
+        
+        -> Logical Operators 
+
+            -> Logical Operators are used for performing Logical Operations
+            and result is in boolean type (True/False) 
             
+            -> Used To Check Multiple Conditionals 
+
+                -> and: If Both Conditions are True, then only result is True, Otherwise False
+
+                -> or: If One Of Conditions is True, then only result is True, Otherwise False
+
+                -> not: Negates result, True means False and False means True 
+
+                            X       Y       X and Y    X or Y    not X    not Y
+                            T       T           T         T         F       F
+                            T       F           F         T         F       T
+                            F       T           F         T         T       F
+                            F       F           F         F         T       T 
+
+        
+        -> Membership Operators
+
+            -> Used To Check If an given object is in the sequence 
+
+                -> in: Returns True, if the given object is in the sequence, Otherwise False 
+
+                -> not in: Returns True, if the given object is not in the sequence  
+
+
+        -> Identity Operators
+
+            -> Used To Check If given objects are Same or Not 
+
+                -> is: Returns True, if the given objects are Same, Otherwise False  
+
+                -> is not: Returns True, if the given objects are Not Same
+
+            -> NOTE: is (Identity operator): Compares the identity (memory address) of two objects. 
+            It returns True only if both variables refer to the exact same object in memory. 
+
+
+        -> Bitwise Operators
+
+            -> Used in Low Level Programming (101010011)
+
+                -> & - If Both Bits are 1, then only result is 1, Otherwise 0
+                -> | - If One Of Bits is 1, then result is 1, Otherwise 0
+                -> etc 
+                
+
+        -> NOTE: Implement EMI Calculator 
+
+            -> https://www.cardekho.com/mahindra/be-6
+
+            -> EMI Formula - https://www.moneyseth.com/media/custom_blog/2021/05/05/emi-calculator_l9Xlp4V.png

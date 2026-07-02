@@ -706,3 +706,97 @@ Class - 5
             -> https://www.cardekho.com/mahindra/be-6
 
             -> EMI Formula - https://www.moneyseth.com/media/custom_blog/2021/05/05/emi-calculator_l9Xlp4V.png
+
+    
+Class - 6
+==========
+
+    -> Data Types 
+
+        -> Data Types are "Categorization" that defines, what kind of data a Variable can hold 
+
+        -> Numeric Types 
+
+            -> int: 1,2,3,-1,-2,0 etc 
+
+            -> float: 1.5,2.0,-1.5 etc 
+
+            -> complex: In maths we have a + ib 
+
+                -> In Python we use same concept as  a + bj
+
+        -> Boolean Types 
+
+            -> bool: Represents True or False 
+
+        -> NoneType
+
+            -> NoneType: Represents Absence Of Value 
+
+        -> String Type:
+
+            -> str: Represents a sequence of characters, enclosed in '' or  "" 
+
+
+    -> Simple Data Types 
+
+        -> Holds Single Value in a Variable 
+
+    -> Complex Data Types 
+
+        -> Holds Multiple Value in a Variable 
+
+    
+    -> Complex Data Types 
+
+        -> Lists: List is a Complex Data Type i.e it holds Multiple Values 
+        and is Represented Using [] 
+
+        -> Tuples: Tuple is a Complex Data Type i.e it holds Multiple Values 
+        and is Represented Using ()
+
+        -> Sets: Set is a Complex Data Type i.e it holds Multiple Values 
+        and is Represented Using {} 
+
+        -> Frozen Sets: FrozenSet is a Complex Data Type i.e it holds Multiple Values 
+        and is Represented Using class Frozenset  
+
+        -> Dictionaries: Dictionary is a Complex Data Type i.e it holds Multiple Key Values 
+        and is Represented Using {} 
+
+
+        -> NOTE: All the above Data Types are "pre-defined" in Python Standard Library 
+
+        -> NOTE: Based on Custom Requirements, coming from clients, we can create Our 
+        Own Data Types as well 
+
+            -> Syntax 
+
+                class CustomDataType:
+                    Statements 
+
+
+    -> Type Conversion & Type Casting 
+
+        -> Type Conversion / Implicit Conversion [Automatic]
+
+            -> Conversion of one data type to another data type, Automatically done by python 
+
+            -> Type Conversion is "SAFE" i.e NO DATA LOSS 
+
+        -> Type Casting / Explicit Conversion [Manual]
+
+            -> Conversion of one data type to another data type, Manually done by Developer  
+
+            -> Type Casting is NOT SAFE i.e DATA LOSS 
+
+            -> Syntax 
+
+                -> Use casting functions 
+
+                    -> use data type function_name before variable_name / value 
+
+                        -> data = 10.5 # float 
+                        -> data = int(data)
+                        -> data = int(10.5)
+

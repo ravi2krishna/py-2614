@@ -800,3 +800,73 @@ Class - 6
                         -> data = int(data)
                         -> data = int(10.5)
 
+
+Class - 7
+==========
+
+    -> Control Structures / Control Statements 
+
+        -> Control Structures Helps You Determine the "Flow Of Execution"
+        in Python Program, Allowing You To 
+
+            -> Make Decisions 
+
+            -> Repeat Tasks 
+
+
+        -> Python Has Given Three Types Of Control Structures 
+
+            -> Conditional Structures (Decision Making Statements) 
+
+            -> Looping Structures (Iteration Statements) (Repetition)
+
+            -> Branching Structures (Jump Statements)
+
+        
+        -> NOTE: To Work With Control Structures, We need "Indentation" Knowledge 
+
+
+    -> Indentation 
+
+        -> Indentation in Python is a Fundamental and Mandatory Aspect of it's Syntax,
+        Used to define the "Structure" and "Hierarchy" in "Code Blocks"
+
+            -> Statement: Single Line Of Code 
+
+            -> Block: Multiple Lines Of Statements 
+
+        -> Unlike Other Programming Language that use Curly Braces {} or Keywords 
+        to define block of code, Python entirely relies in "Consistent" Indentation 
+
+            -> Using Space as Indentation 
+
+        -> NOTE: Understanding Indentation means 
+
+            -> When to use Space 
+            -> When Not to use Space 
+            -> How many spaces to use
+
+        -> Python Allows for any "Consistent Number Of Spaces"  
+        the widely accepted and Recommended standard is 4 Spaces (tab)
+
+            -> When to use Space ? 
+
+                -> When We Write Blocks Of Code 
+
+            -> When Not to use Space ? 
+
+                -> Single Statement 
+
+            -> How many spaces to use ?
+
+                -> At least one space is must, but Recommended standard is 4 Spaces (tab)
+
+                
+
+
+
+            
+
+
+
+

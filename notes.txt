@@ -863,7 +863,81 @@ Class - 7
 
                 
 
+Class - 8
+==========
 
+    -> Conditional Structures (Decision Making Statements) 
+
+        -> Used to run a "block of code" based on a condition result 
+
+        -> if 
+
+            -> Runs a block of code, if the condition is True 
+
+            -> Syntax 
+
+                if condition:
+                    block of code 
+
+        -> if else 
+
+            -> Runs a block of code, if the condition is True 
+            Runs another block of code, if the condition is False 
+
+            -> Syntax 
+
+                if condition:
+                    block of code 
+                else:
+                    block of code 
+
+        -> NOTE: input() function, Reads the input from the user and 
+        stores the value as String 
+
+        -> Interpolation 
+
+            -> Interpolation technique replaces, place holders with actual values dynamically
+
+            -> Using "f-strings" (Formatted String Literals)
+
+                -> We use f with print() and {} as place holders  
+
+        
+        -> Conditional Expression 
+
+            -> Conditional Expression Provides a Concise way to write if else in one line 
+
+            -> NOTE: It Evaluates Conditional and returns one of the two values 
+            based on whether Condition is True or False 
+
+                -> Syntax 
+
+                    value_if_true if condition else value_if_false 
+
+
+        -> elif ladder 
+
+            -> It is used in conditional statements to check "multiple conditions"
+            sequentially after an initial if statement
+
+                -> Syntax 
+
+                    if condition:
+                        block of code
+                    elif condition:
+                        block of code
+                    elif condition:
+                        block of code
+                    .
+                    .
+                    else:
+                        block of code 
+                    
+
+
+
+
+    
 
             
 

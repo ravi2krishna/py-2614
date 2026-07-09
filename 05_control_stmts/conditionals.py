@@ -121,3 +121,34 @@ elif marks >= 30:
     print("D Grade")
 else:
     print('Fail')
+    
+print("===================")
+
+# match case - You are comparing one variable, Against fixed constant values
+
+error_code = int(input("Enter Error Code: "))
+match error_code:
+    case 200:
+        print("Success - OK")
+    case 404:
+        print("Error - Not Found")
+    case 503:
+        print("Error - Service Unavailable")
+    case _:
+        print("Unknown Error Code")
+        
+print("===================")
+
+role = input("Enter Your Role: ")
+match role:
+    case "developer":
+        print("Write Code")
+    case "admin":
+        print("Install Server")
+    case "devops":
+        print("Setup CI/CD Pipeline")
+    case _:
+        print("Invalid Role") 
+        
+print("===================")   
+    

@@ -934,12 +934,101 @@ Class - 8
                         block of code 
                     
 
+Class - 9
+==========
 
+    -> match case 
+
+        -> The match/case statement (introduced in Python 3.10) is used for 
+        "Pattern Matching"
+
+        -> In other languages we call it as "switch-case"
+
+         -> Syntax 
+
+            match expression:
+                case pattern_1:
+                    # code block 1    
+                case pattern_2:
+                    # code block 2
+                case pattern_3:
+                    # code block 3
+                .
+                .
+                .
+                case _:
+                    # default code block
+
+        -> NOTE: Use match case when:
+
+            -> You are comparing one variable, Against fixed constant values
+                
+                Like:
+                    Menu options
+                    Days
+                    Status codes
+                    Roles
+
+            -> https://miro.medium.com/v2/0*emwCsVL6_veL1d0I
+
+
+    -> Nested Conditionals 
+
+        -> Conditionals Inside Conditionals
+
+        -> Nested Conditionals in python involve placing an if or if else inside another 
+        if, elif or else blocks 
+
+        -> This Allows the program to Evaluate multiple Criteria,
+        where inner condition is only checked if the outer condition is True  
 
 
     
 
+    -> Looping Structures (Iteration Statements) (Repetition)
+
+        -> Loops In Python are used to "Repeatedly" execute a block of code
+        until a specific condition is met or for each item in a sequence. 
+
+        -> We have two types of loops in python 
+
+            -> for loop 
+
+            -> while loop 
+
+        -> NOTE: When you want to do a task multiple times, use loops 
+
+
+        -> while loop 
+
+            -> while loops execute a block of code repeatedly 
+            as long as a specified condition remains True
+
+            -> Syntax 
+
+                while condition:
+                    block of code 
+
+            -> NOTE: We use While generally, When we don't know
+            number of Iterations/Repetitions in advance 
+
             
+
+        -> for loop 
+
+            -> for loop is used to "iterate over a sequence" 
+            (like a list, tuple, string, or range) 
+
+            -> NOTE: For loop executes a block of code once, for each item in the sequence. 
+
+            -> Syntax 
+
+                for variable in sequence:
+                    block of code 
+
+            -> NOTE: We use for generally, When we know
+            number of Iterations/Repetitions in advance 
+
 
 
 

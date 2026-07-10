@@ -73,3 +73,86 @@ print("===================")
 print("Prices After Discount")
 for price in prices_products:
     print(price - 250)
+    
+print("===================")
+
+# Without range() function
+numbers = [1,2,3,4,5,6,7,8,9,10]  
+for num in numbers:
+    print(num)
+
+print("===================")
+
+# With range() function
+# range(start, stop, step) 
+for num in range(1,11,1):
+    print(num)
+    
+print("===================")
+
+# With range() function
+# range(start, stop, step) 
+for num in range(1,10001,1):
+    print(num)
+    
+print("===================")
+
+for num in range(6): # start(0) and step(1) is defaults 
+    print(num)
+    
+print("===================")
+
+for num in range(5,55,5):
+    print(num) 
+    
+print("===================")
+
+for num in range(1,10,1):
+    print(num) 
+    
+print("===================")
+
+for num in range(1,10,-1):
+    print(num) 
+    
+print("===================")
+
+for num in range(10,1,-1):
+    print(num) 
+    
+print("===================")
+
+# Greet Hello 
+print("Hello")
+
+# Greet Hello - 25 Times 
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+print("Hello")
+
+# Greet Hello - 2500 Times 
+
+for num in range(1,2501,1):
+    print("Hello",num)

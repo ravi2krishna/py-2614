@@ -1,0 +1,35 @@
+# Using All Control Structures 
+
+# Simulate Real World Functionality Using Control Structures 
+
+# Simulate Authentication Functionality 
+Net Banking Logins / ATM Withdraws / Login Systems etc 
+
+# User will be given maximum of 3 Attempts 
+
+# ATM Pin / Bank Login / OTP etc 
+
+# PIN Should be 4 Digits Only 
+
+# Assume Correct Pin is Stored for Comparison 
+
+# If the PIN Given is not 4 Digit Number, Display Error 
+
+    -> Transaction Failed 
+
+    -> Reduce Attempt 
+
+# If the PIN Given is 4 Digit Number and is Incorrect, Display Error 
+
+    -> Transaction Failed 
+
+    -> Reduce Attempt 
+
+# If the PIN Given is 4 Digit Number and is Correct, Display  
+
+    -> Transaction Success  
+
+# After 3 Attempts, Display 
+
+    -> Maximum Attempts Reached, Try After 24 Hours 
+

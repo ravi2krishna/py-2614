@@ -1068,3 +1068,42 @@ Class - 10
             -> continue: Helps to skip the current iteration
 
             -> pass: Acts as a placeholder, does nothing 
+
+    
+
+    -> Strings 
+
+        -> Strings are one of the "Most Widely Used" Data types in any Programming Language
+
+        -> https://www.instagram.com/
+
+            (Login Page Input Fields)
+
+        -> https://www.instagram.com/accounts/emailsignup/?next=
+
+            (Sign Up Page Input Fields)
+
+        -> NOTE: Most Of The Inputs We Process for Web Pages Of An Application 
+        are Strings 
+
+        -> In Python String is a "Sequence Of Characters" Used to Represent Data 
+
+        -> Strings are widely used for Handling and Manipulating Text Information 
+
+        -> Syntax For Representing Strings 
+
+            -> Strings can be enclosed in '' or " " or """ """ or ''' ''' 
+
+            -> Single Line Strings: Use ' ' or " "
+
+            -> Multi Line Strings: Use """ """ or ''' ''' 
+
+    
+    -> Rules When Defining Strings 
+
+        -> When You Use Single quote in a string, enclose them in Double Quotes
+
+        -> When You Use Double quote in a string, enclose them in Single Quotes
+
+        -> When You Use Both Single quote and Double quote in a string, 
+        enclose them in Triple Single Quotes / Triple Double Quotes

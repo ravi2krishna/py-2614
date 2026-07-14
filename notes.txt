@@ -1069,7 +1069,8 @@ Class - 10
 
             -> pass: Acts as a placeholder, does nothing 
 
-    
+Class - 11
+==========    
 
     -> Strings 
 
@@ -1109,7 +1110,7 @@ Class - 10
         enclose them in Triple Single Quotes / Triple Double Quotes
 
 
-Class - 11
+Class - 12
 ==========
 
     -> Accessing Strings 
@@ -1202,4 +1203,9 @@ Class - 11
 
         -> https://docs.python.org/3/library/stdtypes.html#string-methods
 
-        
+
+Class - 13
+==========
+
+    -> String Methods In Real World Applications Point Of View 
+

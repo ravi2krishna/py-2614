@@ -1209,3 +1209,46 @@ Class - 13
 
     -> String Methods In Real World Applications Point Of View 
 
+Class - 14
+==========
+
+    -> String Methods In Real World Applications Point Of View - Continued 
+
+    
+    -> Simple Data Types 
+
+        -> Can Hold "One Value" In a Variable 
+
+            -> data = 10 
+            -> data = 1.5 
+            -> data = "hello"
+
+    
+    -> Complex Data Types 
+
+        -> Can Hold "Multiple Values" In a Variable 
+
+            -> https://www.datablist.com/learn_images/csv/google_sheet_csv.png
+
+            -> data_emp_ids = 100, 101, 102, 103 etc 
+            -> data_emp_experience = 1.5, 2.5, 1, 9.5 etc 
+            -> data_emp_emails = john.doe@gmail.com, john.doe@oracle.com, john.doe@tcs.com etc 
+            -> data_emp_role = Developer, Admin, Manager etc 
+
+        
+        -> Python Provides Following Classes To Work With Complex Data Types 
+
+            -> List 
+
+            -> Tuple 
+
+            -> Dictionary
+
+            -> Set 
+
+            -> Frozenset 
+
+        
+
+
+

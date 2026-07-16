@@ -1250,5 +1250,45 @@ Class - 14
 
         
 
+Class - 15
+==========
+
+    -> List 
+
+        -> List is a data structure which allows you to "Store Multiple Values"
+        in a single variable, each value is separated with ,
+
+        -> Lists are represented using [] or using "list" class 
+
+    -> Accessing Data In Lists 
+
+        -> Like in Strings, We Have index in lists too 
+
+        -> Index starts from Zero 
+
+        -> Supports Both Positive and Negative Index 
+
+        -> Slicing is same as Strings 
+
+        -> Loops We Can Apply 
+
+        -> Operators We Can Apply 
+
+        -> Conditionals We Can Apply 
+
+        -> Duplicates Allowed
+
+        -> Insertion Order Is Preserved 
+
+    
+    -> Characteristics Of Lists 
+
+        -> Mutable: Lists are mutable in nature 
+
+        -> Oder: List Order Is Preserved 
+
+        -> Duplicates: Lists Allow Duplicates 
+
+    
 
 

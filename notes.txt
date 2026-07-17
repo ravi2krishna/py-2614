@@ -1291,4 +1291,99 @@ Class - 15
 
     
 
+Class - 16
+==========
 
+    -> NOTE: New Requirements, to store multiple employees 
+    PAN ID's and make sure they cannot be changed.
+
+    -> Tuples 
+
+        -> Tuple is a data structure which allows you to store multiple values
+        in a single variable, each value is separated with ,
+
+        -> Tuples are represented using ( ) or using "tuple" class
+
+    -> Accessing Data In Tuples 
+
+        -> Like in Strings, We Have index in tuples too 
+
+        -> Index starts from Zero 
+
+        -> Supports Both Positive and Negative Index 
+
+        -> Slicing is same as Strings 
+
+        -> Loops We Can Apply 
+
+        -> Operators We Can Apply 
+
+        -> Conditionals We Can Apply 
+
+        -> Duplicates Allowed
+
+        -> Insertion Order Is Preserved 
+
+        -> NOTE: Tuples are "Immutable" (Cannot Be Changed)
+
+        -> NOTE: Tuples are READ ONLY LISTS 
+
+    
+    -> Characteristics Of Tuples 
+
+        -> Immutable: Tuples are Immutable in nature 
+
+        -> Oder: Tuples Order Is Preserved 
+
+        -> Duplicates: Tuples Allow Duplicates 
+
+    -> NOTE: New Requirements, to store multiple employees 
+    PAN ID's and make sure they cannot be changed.
+
+
+
+    -> Dictionaries 
+
+        -> Dictionary is a data structure which allows you to store multiple 
+        "key value" in a single variable, each value is separated with ,
+
+        -> Dictionaries are represented using { } or using "dict" class
+
+        -> Dictionaries Store multiple "key value" pairs 
+
+            -> pair / item ==> key:value 
+
+            -> {key1:value1,key2:value2,key3:value3}
+
+            -> https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSib6nLERnnqTxvDUQa5l1ykY9tHPi8c9mWOQV2nwnRl0vXzj01vhWtr-o&s=10
+
+
+    -> Accessing Data In Dictionaries 
+
+        -> NOTE: We Don't Have index in Dictionaries
+
+        -> Dictionaries doesn't support Index 
+
+        -> NO Positive and NO Negative Index 
+
+        -> No Support For Slicing, as No Index 
+
+        -> Loops We Can Apply 
+
+        -> Operators We Can Apply 
+
+        -> Conditionals We Can Apply 
+
+        -> Duplicates Allowed (*)
+
+            -> Values Can Be Duplicates 
+
+            -> Keys Should Be Unique 
+
+                -> If we add Duplicate Key, Latest will Override the old i.e 
+                it will be updated 
+
+            -> NOTE: Keys Must Be Immutable Objects Only and Values Can be any Object  
+
+        
+        -> Insertion Order Is Preserved 

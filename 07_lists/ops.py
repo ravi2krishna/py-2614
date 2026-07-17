@@ -107,3 +107,11 @@ print(data)
 backup = data.copy()
 print(backup)
 
+
+# store multiple employees PAN ID's
+pan_ids = ["ABCDE1234F","LMNOP4567Q","PIOID7890W"]
+print(pan_ids)
+# trying to update 
+pan_ids[0] = "LMCDE1234F"
+
+print(pan_ids)

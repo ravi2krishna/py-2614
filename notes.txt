@@ -1387,3 +1387,20 @@ Class - 16
 
         
         -> Insertion Order Is Preserved 
+
+
+Class - 17
+==========
+
+    -> Dictionaries Continued 
+
+    -> Characteristics Of Dictionaries 
+
+        -> Mutable: Dictionaries are Mutable in nature 
+
+            -> NOTE: Keys are Immutable & Values are Mutable
+
+        -> Oder: Dictionaries Order Is Preserved 
+
+        -> Duplicates: Dictionaries Allow Duplicates Values,
+        but for keys unique keys, if we add duplicate latest will override previous 

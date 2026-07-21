@@ -1404,3 +1404,128 @@ Class - 17
 
         -> Duplicates: Dictionaries Allow Duplicates Values,
         but for keys unique keys, if we add duplicate latest will override previous 
+
+    
+Class - 18
+==========
+
+    -> Sets 
+
+        -> Set is a data structure which allows you to store multiple values
+        in a single variable, each value is separated with ,
+
+        -> Sets are represented using { } or using "set" class
+
+            -> {key1:value1, key2:value2} - Dictionary 
+
+            -> {value1, value2, etc} - Set 
+
+    
+    -> Accessing Data In Sets 
+
+        -> NOTE: We Don't Have index in Sets
+
+        -> Sets doesn't support Index 
+
+        -> NO Positive and NO Negative Index 
+
+        -> No Support For Slicing, as No Index 
+
+        -> Loops We Can Apply 
+
+        -> Operators We Can Apply 
+
+        -> Conditionals We Can Apply 
+
+        -> Duplicates Not Allowed (*)
+
+            -> If we add Duplicate Values, They will be Discarded 
+
+        -> Insertion Order Not Preserved 
+
+        
+        -> NOTE: To Easily Remember Sets (UUU)
+
+            -> U - Unique
+
+            -> U - Unordered
+
+            -> U - Unindexed 
+
+        -> Sets are Mutable 
+
+    
+    -> NOTE: With sets we can do Mathematical set operations (class X - XI)
+
+        -> https://i0.wp.com/mathematicalmysteries.org/wp-content/uploads/2023/08/e-math-set-notation-venn-diagram.jpg?fit=800%2C539&ssl=1
+
+    
+    -> Characteristics Of Sets 
+
+        -> Mutable: Sets are Mutable in nature 
+
+        -> Oder: Sets Order Is Not Preserved 
+
+        -> Duplicates: Sets Doesn't Allow Duplicates 
+
+    
+
+    -> FrozenSet 
+
+        -> frozenset is a data structure which allows you to store multiple "values"
+        in a single variable, each value is separated with ,
+
+        -> We use frozenset class 
+
+    -> Accessing Data In frozenset 
+
+        -> NOTE: We Don't Have index in Sets
+
+        -> frozenset doesn't support Index 
+
+        -> NO Positive and NO Negative Index 
+
+        -> No Support For Slicing, as No Index 
+
+        -> Loops We Can Apply 
+
+        -> Operators We Can Apply 
+
+        -> Conditionals We Can Apply 
+
+        -> Duplicates Not Allowed (*)
+
+            -> If we add Duplicate Values, They will be Discarded 
+
+        -> Insertion Order Not Preserved 
+        
+        -> NOTE: To Easily Remember frozenset (UUU)
+
+            -> U - Unique
+
+            -> U - Unordered
+
+            -> U - Unindexed 
+
+        -> NOTE: frozenset are Immutable 
+
+    
+    -> Characteristics Of frozenset 
+
+        -> Immutable: frozenset are Immutable in nature 
+
+        -> Oder: frozenset Order Is Not Preserved 
+
+        -> Duplicates: frozenset Doesn't Allow Duplicates
+
+    
+    
+    -> How / When To Use Data Structures In Applications ??
+
+        -> Lists            (When To Use)
+
+        -> Tuples           (When To Use)
+
+        -> Dictionaries     (When To Use)
+
+        -> Sets             (When To Use)

@@ -1,0 +1,7 @@
+# Build Product Management System -> Simulating Ecommerce Inventory 
+
+# Add Product -> ID, Name, Short Description, Quantity, Actual_Price, Based On Promo Code Apply Discounts,
+Update Buying_Price Based On Discount, Reduce Quantity If Purchased 
+# Update Product -> Name, Short Description
+# Delete Products -> By ID 
+# Read Products -> Avg Price Products , Highest Product Price - Product, Lowest Product Price - Product

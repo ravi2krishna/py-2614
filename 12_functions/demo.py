@@ -133,3 +133,175 @@ employee_info(emp_location="USA",emp_name="Mark",emp_email="mark@gmail.com",org_
 
 def employee_info(emp_name,emp_email,emp_location,emp_mobile,org_name="IBM"): 
     print(f"Hi {emp_name} your email is {emp_email} and working for {org_name} at location {emp_location}")
+
+print("=" * 50)    
+    
+# Without Arbitrary Positional Arguments
+def add_numbers_one(n1):
+    print(n1)
+    
+def add_numbers_two(n1,n2):
+    print(n1+n2)
+    
+def add_numbers_three(n1,n2,n3):
+    print(n1+n2+n3)
+    
+add_numbers_one(10)
+add_numbers_two(10,20)
+add_numbers_three(10,20,30)
+
+# add_numbers_three(10,20,30,40,50) # TypeError: add_numbers_three() takes 3 positional arguments but 5 were given
+
+print("=" * 50)   
+
+# With Arbitrary Positional Arguments
+def add_numbers(*numbers):
+    print(numbers)
+    
+add_numbers(10)
+add_numbers(10,20,30)
+add_numbers(10,20,30,40,50)
+
+def add_numbers(*numbers):
+    for num in numbers:
+        print(num)
+
+add_numbers(10,20,30,40,50)
+
+def add_numbers(*numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    print(f"Total Sum is {total}")    
+    
+add_numbers(10)
+add_numbers(10,20,30)
+add_numbers(10,20,30,40,50)
+
+def profile(*info):
+    print(info)
+    
+profile("ravi","krishna")
+profile("jon","doe",9090909090)
+
+# Real World Use Case w.r.t Ecommerce Applications Cart Functionality 
+def cart_total_value(*products):
+    total = 0
+    for product in products:
+        total += product
+    print(f"Total Cart Value is ₹ {total}")    
+
+cart_total_value(1299,599,1899)
+
+print("=" * 50)   
+
+# Arbitrary Keyword Arguments
+def profile(**info):
+    print(info)
+    
+profile(fname="ravi",lname="krishna")
+profile(fname="ravi",lname="krishna",mobile=90909090)
+
+def profile(**info):
+    for data in info:
+        # print(data) # keys 
+        print(info[data]) # value = dict['key']
+
+profile(fname="ravi",lname="krishna",mobile=90909090)
+
+print("=" * 50)   
+
+# Real World Use Case -> jan=3000, feb=4500, mar=9000
+# Real World Use Case -> jan=3000, feb=4500, mar=9000, apr=6000
+# Real World Use Case -> jan=3000, feb=4500, mar=9000, apr=6000, may=3000
+# Requirement: Calculate Total Transaction Amount and Number Of Transactions Made
+
+def bank_transactions(**transactions):
+    print(transactions)
+    total_transactions_value = 0
+    number_of_transactions = 0
+    for transaction in transactions: # jan, feb etc 
+        total_transactions_value += transactions[transaction] # 3000, 4500 etc 
+        number_of_transactions += 1 
+    print(f"Total Transactions Amounts To {total_transactions_value} For {number_of_transactions} Transactions")
+        
+bank_transactions(jan=3000, feb=4500, mar=9000)
+bank_transactions(jan=3000, feb=4500, mar=9000, apr=6000, may=3000)
+    
+    
+print("=" * 50)   
+
+# Without return 
+
+def add(a,b):
+    a + b 
+    
+add(10,20)
+print(add(10,20))
+
+# Without return 
+def add(a,b):
+    return a + b 
+
+add(10,20)
+
+b = add(10,20)
+print(b)
+
+print(add(100,200))
+
+# Problem 
+# def add(a,b):
+#     print(a + b)
+    
+# # function composition 
+# def sub(c,d,e): # add c & d then minus - e --> c + d - e
+#     print(add(c,d) - e)
+
+# sub(3,4,5)  
+
+# Solution 
+def add(a,b):
+    return a + b
+    
+# function composition 
+def sub(c,d,e): # add c & d then minus - e --> c + d - e
+    print(add(c,d) - e)
+
+sub(3,4,5)  
+
+# return - make sure it's the last part of statement to be executed
+def add(a,b):
+    print("Calculation Started")
+    return a + b # last part of statement to be executed
+    print("Calculation Completed") # Code is structurally unreachable
+    
+print(add(100,40))
+
+a = 50
+b = 60
+a = 70
+print(a) 
+
+# multiple return statements --> first return will be considered
+def math_ops(a,b):
+    return a + b 
+    return a - b
+    return a * b
+    
+print(math_ops(10,20))
+
+# multiple returns are present, and used with conditionals, you can control the flow 
+def math_ops(a,b,operator):
+    if operator == "+":
+        return a + b
+    elif operator == "-":
+        return a - b
+    elif operator == "*":
+        return a * b
+    else:
+        return "Invalid Operator"
+
+print(math_ops(1,2,"+"))
+print(math_ops(100,200,"*"))
+print(math_ops(5,10,"$"))

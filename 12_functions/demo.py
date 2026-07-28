@@ -305,3 +305,182 @@ def math_ops(a,b,operator):
 print(math_ops(1,2,"+"))
 print(math_ops(100,200,"*"))
 print(math_ops(5,10,"$"))
+
+# Local Scope
+def add():
+    la = 10 # local variable declared "inside the function" 
+    lb = 20 # local variable declared "inside the function" 
+    print(la)
+    print(lb)
+    
+add()
+# print(la) # NameError: name 'la' is not defined. Did you mean: 'a'?
+# print(lb)
+
+def add(la,lb): # local variable declared "inside the function" 
+    print(la)
+    print(lb)
+    
+add(40,50)
+
+# print(la) # NameError: name 'la' is not defined. Did you mean: 'a'?
+
+# Global Scope
+ga = 100
+def add(la,lb): # local variable declared "inside the function" 
+    print(la)
+    print(lb)
+    print(ga) # Global variable accessed within function
+    
+add(80,90)
+print(ga)
+
+# name conflicts
+ga = 500
+def add(la,lb,ga): # local variable declared "inside the function" 
+    print(la)
+    print(lb)
+    print(ga)
+
+add(1,2,3)
+print(ga)
+
+ga = 500
+def add(la,lb,ga): # local variable declared "inside the function" 
+    print(la)
+    print(lb)
+    print(ga) # access local variable ga
+    print(globals()['ga']) # access global variable ga 
+    
+add(4,5,6)
+
+# global variable outside the function 
+count = 0 # global variable
+print(count)
+count += 1
+print(count)
+
+# global variable inside the function 
+count = 0 # global variable
+print(count)
+def increment():
+    global count 
+    count += 1 # UnboundLocalError: cannot access local variable 'count' where it is not associated with a value
+    return count
+
+print(increment())
+
+# Without Lambda Functions 
+def add(a,b):
+    return a + b 
+print(add(200,300))
+
+# With Lambda Function
+# lambda arguments:expression 
+lambda a,b:a + b # lambda expression 
+print((lambda a,b:a + b)(1,2)) # IILE
+
+# Without Lambda Functions 
+def is_even_num(num):
+    if num % 2 == 0:
+        return True 
+    else:
+        return False 
+    
+print(is_even_num(11))
+print(is_even_num(10))
+
+# With Lambda Function
+# lambda arguments:expression 
+lambda num:num % 2 == 0
+print((lambda num:num % 2 == 0)(13))
+print((lambda num:num % 2 == 0)(12))
+
+# Without Lambda Functions 
+# Keyword Arguments
+def employee_info(emp_name,emp_email,emp_location):
+    print(f"Hi {emp_name} your email is {emp_email} and work location is {emp_location}")
+    
+employee_info(emp_location="Hyderabad",emp_name="Ravi",emp_email="ravi@gmail.com")
+
+# With Lambda Function
+# lambda arguments:expression 
+lambda emp_name,emp_email,emp_location:print(f"Hi {emp_name} your email is {emp_email} and work location is {emp_location}")
+# print((lambda emp_name,emp_email,emp_location:print(f"Hi {emp_name} your email is {emp_email} and work location is {emp_location}"))(emp_location="Hyderabad",emp_name="Mike",emp_email="mike@gmail.com"))
+print((lambda emp_name,emp_email,emp_location:(f"Hi {emp_name} your email is {emp_email} and work location is {emp_location}"))(emp_location="Hyderabad",emp_name="Mike",emp_email="mike@gmail.com"))
+
+# Without Higher Order Functions - map()
+# Write a script/program to take a list of numbers and return the square of list of numbers
+# [1,2,3,4,5]   ==>     [1,4,9,16,25]
+
+def square_list(numbers):
+    squared_list = []
+    for num in numbers:
+        squared_list.append(num * num) 
+    return squared_list
+
+print(square_list([1,2,3,4,5]))
+
+
+# With Higher Order Functions - map()
+# Write a script/program to take a list of numbers and return the square of list of numbers
+# [1,2,3,4,5]   ==>     [1,4,9,16,25]
+# map(function, iterable)
+(lambda num:num*num)
+map((lambda num:num*num), [1,2,3,4,5])
+print(map((lambda num:num*num), [1,2,3,4,5]))
+print(list(map((lambda num:num*num), [1,2,3,4,5])))
+
+# Real World Use Case Of Working with Lambda & Higher Order Functions 
+products = [
+    {"name": "Laptop", "price": 80000, "discount": 10},
+    {"name": "Phone", "price": 50000, "discount": 5},
+    {"name": "Headphones", "price": 2000, "discount": 15},
+    {"name": "Charger", "price": 1500, "discount": 0},
+    {"name": "Camera", "price": 30000, "discount": 20},
+
+    {"name": "Tablet", "price": 25000, "discount": 10},
+    {"name": "Monitor", "price": 12000, "discount": 8},
+    {"name": "Keyboard", "price": 2000, "discount": 5},
+    {"name": "Mouse", "price": 1000, "discount": 0},
+    {"name": "Printer", "price": 15000, "discount": 12},
+
+    {"name": "Smartwatch", "price": 7000, "discount": 18},
+    {"name": "Speaker", "price": 3500, "discount": 10},
+    {"name": "PowerBank", "price": 1800, "discount": 7},
+    {"name": "Router", "price": 2500, "discount": 5},
+    {"name": "HardDisk", "price": 6000, "discount": 15},
+
+    {"name": "SSD", "price": 5500, "discount": 20},
+    {"name": "Webcam", "price": 2200, "discount": 10},
+    {"name": "Microphone", "price": 3000, "discount": 12},
+    {"name": "Projector", "price": 40000, "discount": 25},
+    {"name": "Drone", "price": 75000, "discount": 30},
+
+    {"name": "TV", "price": 45000, "discount": 18},
+    {"name": "GamingConsole", "price": 38000, "discount": 15},
+    {"name": "VRHeadset", "price": 20000, "discount": 22},
+    {"name": "GraphicsCard", "price": 65000, "discount": 10},
+    {"name": "Motherboard", "price": 12000, "discount": 8}
+]
+
+# Requirement: find me prices after discounts
+
+prices_after_discounts = []
+for product in products:
+    print(product)
+    price = product['price']
+    print(price)
+    discount = product['discount']
+    print(discount)
+    
+    price_after_discount = price - (price * discount / 100)
+    print(price_after_discount)
+    prices_after_discounts.append(price_after_discount)
+    
+print("Prices After Discount: ",prices_after_discounts)
+
+# Requirement: find me prices after discounts Using Higher Order Function map()
+print("=" * 50)
+print(list(map((lambda product:product['price'] - product['price'] * product['discount'] / 100), products)))
+

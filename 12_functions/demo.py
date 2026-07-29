@@ -484,3 +484,66 @@ print("Prices After Discount: ",prices_after_discounts)
 print("=" * 50)
 print(list(map((lambda product:product['price'] - product['price'] * product['discount'] / 100), products)))
 
+print("=" * 50)
+
+# Real World Use Case Of Working with Lambda & Higher Order Functions 
+products = [
+    {"name": "Laptop", "price": 80000, "discount": 10},
+    {"name": "Phone", "price": 50000, "discount": 5},
+    {"name": "Headphones", "price": 2000, "discount": 15},
+    {"name": "Charger", "price": 1500, "discount": 0},
+    {"name": "Camera", "price": 30000, "discount": 20},
+
+    {"name": "Tablet", "price": 25000, "discount": 10},
+    {"name": "Monitor", "price": 12000, "discount": 8},
+    {"name": "Keyboard", "price": 2000, "discount": 5},
+    {"name": "Mouse", "price": 1000, "discount": 0},
+    {"name": "Printer", "price": 15000, "discount": 12},
+
+    {"name": "Smartwatch", "price": 7000, "discount": 18},
+    {"name": "Speaker", "price": 3500, "discount": 10},
+    {"name": "PowerBank", "price": 1800, "discount": 7},
+    {"name": "Router", "price": 2500, "discount": 5},
+    {"name": "HardDisk", "price": 6000, "discount": 15},
+
+    {"name": "SSD", "price": 5500, "discount": 20},
+    {"name": "Webcam", "price": 2200, "discount": 10},
+    {"name": "Microphone", "price": 3000, "discount": 12},
+    {"name": "Projector", "price": 40000, "discount": 25},
+    {"name": "Drone", "price": 75000, "discount": 30},
+
+    {"name": "TV", "price": 45000, "discount": 18},
+    {"name": "GamingConsole", "price": 38000, "discount": 15},
+    {"name": "VRHeadset", "price": 20000, "discount": 22},
+    {"name": "GraphicsCard", "price": 65000, "discount": 10},
+    {"name": "Motherboard", "price": 12000, "discount": 8}
+]
+
+# Requirement: Find the Premium Products i.e product with price above 25000
+# https://miro.medium.com/v2/resize:fit:1200/1*Jf5GJS1XtRsHWbZldcvOiQ.png
+# Without filter() - Imperative Approach - What To Do 
+
+premium_products = []
+
+for product in products:
+    # print(product)
+    price = product['price']
+    if price > 25000:
+        print(product)
+        premium_products.append(product)
+        
+print("All Products: ",products)
+
+print("=" * 50)
+
+print("Premium Products: ",premium_products)
+    
+print("=" * 50)
+    
+# Requirement: Find the Premium Products i.e product with price above 25000
+# https://miro.medium.com/v2/resize:fit:1200/1*Jf5GJS1XtRsHWbZldcvOiQ.png
+# With filter() - Declarative Approach - How To Do 
+# filter(function, iterable)
+print("With Filter")
+print(filter((lambda product:product['price'] > 25000), products))
+print(list(filter((lambda product:product['price'] > 25000), products)))

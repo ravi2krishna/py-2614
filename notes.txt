@@ -2023,3 +2023,39 @@ Class - 26
         -> NOTE: We Don't Work With Text Files in real world scenarios 
 
         -> NOTE: In Real World Applications We Use CSV and JSON Files 
+
+
+Class - 27
+==========
+
+    -> Working With CSV Data i.e for Data Oriented Courses 
+
+    -> Python has provided "csv" module to work with CSV Data i.e CSV Files 
+
+        -> https://www.datablist.com/learn_images/csv/google_sheet_csv.png
+
+        -> https://www.slashgear.com/img/gallery/csv-files-explained-what-they-are-and-how-to-open-them/what-are-csv-files-1699455969.jpg
+
+    -> The built-in Python csv module allows you to read and write 
+    tabular data in CSV format without installing external libraries.
+
+        -> For Fixed Data Sets, we can use "reader" functionality from csv module
+
+            -> students.csv file
+
+        -> For Changing Data Sets, we can use DictReader functionality from csv module
+
+            -> sample.csv file (structure is changed)
+
+
+        -> The main components of the csv module are:
+        
+            -> csv.reader(file): Reads CSV data and returns each row as a list of strings.
+        
+            -> csv.writer(file): Writes data to a CSV file from lists.
+            
+            -> csv.DictReader(file): Reads data by mapping the information to a dictionary, 
+            using the first row as field names (keys).
+            
+            -> csv.DictWriter(file, fieldnames): Writes data from a list of dictionaries 
+            to a CSV file, using the dictionary keys as column headers.

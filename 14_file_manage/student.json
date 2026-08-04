@@ -1,0 +1,11 @@
+{
+    "id": "101",
+    "name": "ravi",
+    "email": "ravi2krishna@gmail.com",
+    "courses": [
+        "ai",
+        "python",
+        "cloud"
+    ],
+    "gpa": 9.5
+}

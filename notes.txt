@@ -2116,3 +2116,10 @@ Class - 28
         -> json.dumps()	Serializes a Python object to a JSON-formatted string ("dump string").
 
         -> json.loads()	Deserializes a JSON-formatted string to a Python object ("load string").
+
+
+
+Class - 29
+==========
+
+    -> CRUD Application With Data Persistency 

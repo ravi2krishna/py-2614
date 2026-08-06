@@ -2123,3 +2123,49 @@ Class - 29
 ==========
 
     -> CRUD Application With Data Persistency 
+
+
+Class - 30
+==========
+
+    -> Exception Handling 
+
+        -> Exception: It's an "Error", which might occur during the program execution 
+
+        -> By default when python encounters an Error, 
+        it abruptly "STOPS" the program execution
+
+        -> To change the above default behavior, and handle the 
+        Exceptions by yourself, we need following
+
+            -> try: used to keep the code, that will cause error 
+
+            -> except: used to keep the code, that should run when error occurs 
+
+            -> else: used to keep the code that should run, if No Exception was raised in try block
+
+            -> finally: used to keep the code that should run, whether an exception raised or not 
+
+                -> closing connections(db, files etc) will be done in finally block 
+
+            -> raise: Used To Manually Trigger Exception 
+
+    
+        -> Earlier we worked with In built Exceptions provided as part of 
+        python standard library (ZeroDivisionError, IndexError, ValueError, TypeError etc)
+
+            -> https://docs.python.org/3/library/exceptions.html 
+
+        
+        -> But sometimes you need your "own custom errors" that describes a situation 
+        Specific to your program 
+
+        -> You create a custom exception by "defining a class" that inherits 
+        from Python’s built-in "Exception" class. 
+
+        -> NOTE: All user-defined exceptions should also be derived from Exception class.
+
+            -> Syntax 
+
+                class CustomError(Exception):
+                    pass 

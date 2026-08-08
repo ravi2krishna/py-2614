@@ -2169,3 +2169,178 @@ Class - 30
 
                 class CustomError(Exception):
                     pass 
+
+
+Class - 31
+==========
+
+    -> OOP - Object Oriented Programming
+
+        -> OOP, or Object-Oriented Programming, is a programming model/paradigm 
+        that organizes code around "objects"
+
+            -> Car is an object
+
+            -> Phone is an object
+
+            -> Person is an object 
+
+
+        -> Earlier (Functional Style)
+
+            -> Writing Long List Of Instruction (task oriented)
+
+        
+        -> Moving Forward 
+
+            -> Thinking in terms of real world entities (objects)
+
+                -> Object - Data (Variables)
+
+                -> Object - Behavior (Methods)
+
+            
+            -> Writing Code That Follows Object Oriented Design Principals 
+
+                -> Focus is on objects and their relationships (not just tasks)
+
+                -> We don't think about steps, we think about "Who Does What"
+
+
+
+    -> NOTE: Compare Functional Programming vs OOP 
+
+                                Functional Style                        Object Oriented Style 
+
+    -> Focus                Step by step functions                  Real World Objects 
+
+    -> Data & Function      Separate                                Combined inside a class 
+
+    -> Code Organization    One Big Script                          Multiple Reuseable Classes 
+
+    -> Reusability          Harder                                  Easy as for Inheritance
+
+    -> Maintenance          Complex as code grows                   More Cleaner     
+
+
+
+    -> Four Pillars Of OOP 
+
+        -> Inheritance 
+
+            -> Using Inheritance We Get Reusability
+
+        -> Encapsulation 
+
+            -> Binding Data & Behavior Together With Data Hiding 
+
+        -> Abstraction 
+
+            -> Hiding Complexity, show only what users need 
+
+        -> Polymorphism 
+
+            -> For Extensibility, One Entity Has Multiple Forms 
+
+
+    -> To Work With OOP, We need to know following concepts 
+
+        -> Classes 
+
+        -> Objects 
+
+        -> Methods 
+
+        -> Constructors 
+
+        -> Instance Members 
+
+        -> Class Members 
+
+        -> Static Members 
+
+        -> 4 OOP Principals
+
+            -> Inheritance
+            -> Encapsulation
+            -> Abstraction
+            -> Polymorphism
+
+
+    
+    -> Object 
+
+        -> In Terms Of Real World, Everything is object 
+
+        -> Every Object Has Two Entities 
+
+            -> An Object "HAS" Something like Characteristics / Properties 
+
+                -> Car HAS brand 
+                -> Car HAS price 
+                -> Car HAS color 
+                -> Car HAS etc 
+
+                -> NOTE: In Technical they are Variables
+
+
+            -> An Object "DOES" Something like Behaviors / Actions 
+
+                -> Car DOES drive forward
+                -> Car DOES drive backward
+                -> Car DOES sound horn 
+                -> Car DOES etc 
+
+                -> NOTE: In Technical they are Methods 
+
+    
+        -> How To Create Objects ?
+
+            -> We Need A Class, to create objects 
+
+    
+    -> Class 
+
+        -> A Class is Blueprint For Creating Objects 
+
+        -> A Class Defines What Kind Of Characteristics & Behaviors 
+        an object should possess 
+
+        -> NOTE: A Car class can define 
+
+            -> What Can A Car HAVE 
+
+            -> What Can A Car DO 
+
+    -> Class: 
+        
+        -> https://s3.amazonaws.com/gc-p/screenshots/pics/68446cebb1c92aa555eca8fbff217689/large.jpg
+
+    -> Objects 
+
+        -> https://cdn.mos.cms.futurecdn.net/Drifb4WGUoCj2gVUo2BQnG-1540-80.jpg
+
+        -> https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/2018_BMW_M5_Automatic_4.4.jpg/1280px-2018_BMW_M5_Automatic_4.4.jpg
+
+
+    -> Methods 
+
+        -> A Method is a block of code, which performs a task associated with Objects.
+
+        -> NOTE: A Function is a block of code, which performs a task 
+        not associated with Objects.
+
+    
+    -> Syntax For Class 
+
+        class ClassName:
+            Characteristics(Variables) & Behaviors(Methods)
+
+    -> Syntax For Object
+
+        object = ClassName()
+
+    -> Syntax For Method
+
+        def method_name(self):
+            block of code

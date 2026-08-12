@@ -2478,3 +2478,50 @@ Class - 32
             -> Declared used @staticmethod decorator 
 
             -> Called Using ClassName
+
+
+Class - 33
+==========
+
+    -> Inheritance 
+
+        -> Inheritance is a core OOP concept where a new class, 
+        called a subclass or child class, acquires the 
+        Properties(Variables) and Behaviors(Methods) from an 
+        existing class, called as Super Class or Parent Class.
+
+        -> NOTE: Main purpose of Inheritance is CODE Reusability.
+
+        -> Syntax 
+
+            class Parent:
+                pass 
+
+            class Child(Parent):
+                pass 
+
+        
+        -> WithOut Inheritance & With Inheritance
+
+
+    -> Types Of Inheritance
+
+        -> Single Level Inheritance
+
+            -> One Parent -> One Child 
+
+        -> Multi Level Inheritance
+
+            -> GrandParent -> Parent -> Child 
+
+        -> Multiple Inheritance
+
+            -> One Child -> Multiple Parents 
+
+        -> Hierarchical Inheritance
+
+            -> One Parent -> Multiple Child 
+
+        -> Hybrid Inheritance
+
+            -> Combination Of Types Of Inheritance
